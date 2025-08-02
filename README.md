@@ -4,28 +4,28 @@ This project performs **multi-label classification** on sports commentary using 
 
 ---
 
-## 📌 Features
-- ✅ Multi-label classification using **BERT** with **custom loss (label smoothing)**.
-- ✅ Automatic label generation for categories:
+##  Features
+-  Multi-label classification using **BERT** with **custom loss (label smoothing)**.
+-  Automatic label generation for categories:
   - **Score-related**
   - **Assist/Playmaking**
   - **Foul/Penalty**
   - **Substitution/Injury**
   - **Defense Actions**
   - **Game Outcome**
-- ✅ **Sport detection** using contextual keywords (Soccer, Cricket, Basketball, Tennis, etc.).
-- ✅ **Entity extraction** (Players & Teams) using **spaCy**.
-- ✅ **Sentiment analysis** using **VADER**.
-- ✅ Handles **imbalanced classes** using adjusted class weights.
-- ✅ **Fine-tuning BERT** with:
+-  **Sport detection** using contextual keywords (Soccer, Cricket, Basketball, Tennis, etc.).
+-  **Entity extraction** (Players & Teams) using **spaCy**.
+-  **Sentiment analysis** using **VADER**.
+-  Handles **imbalanced classes** using adjusted class weights.
+-  **Fine-tuning BERT** with:
   - `BCEWithLogitsLoss` + Label smoothing
   - Gradient accumulation
   - Mixed precision (`fp16`)
   - Early stopping and model checkpointing
-- ✅ Inference pipeline for **new text commentary**.
+-  Inference pipeline for **new text commentary**.
 
 ---
-## 📌 Requirements
+##  Requirements
 
 - Install the dependencies from requirements.txt
 - Additionally, download SpaCy model and NLTK resources:
